@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Athlete Marketing</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Sports Athlete Marketing</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#vr-ar">VR/AR Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We specialize in marketing for professional and collegiate athletes, utilizing cutting-edge technologies.</p>
+        </section>
+        <section id="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Brand Partnerships</li>
+                <li>Social Media Management</li>
+                <li>Personal Branding</li>
+                <li>Contract Negotiation</li>
+                <li>Virtual Reality Tours</li>
+                <li>Augmented Reality Experiences</li>
+            </ul>
+        </section>
+        <section id="vr-ar">
+            <h2>VR/AR Experience</h2>
+            <a-scene embedded arjs>
+                <a-box position="0 0.5 0" material="color: yellow;"></a-box>
+                <a-marker-camera preset="hiro"></a-marker-camera>
+            </a-scene>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: contact@sportsmarketing.com</p>
+            <p>Phone: 123-456-7890</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Sports Athlete Marketing. All rights reserved.</p>
+    </footer>
+</body>
+</html>
